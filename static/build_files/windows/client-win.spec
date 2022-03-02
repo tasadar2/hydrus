@@ -15,7 +15,6 @@ a = Analysis(['hydrus\\client.pyw'],
              binaries=[],
              datas=[
                ('hydrus\\bin', 'bin'),
-               ('hydrus\\help', 'help'),
                ('hydrus\\static', 'static'),
                ('dist\\server\\server.exe*', '.'),
                ('hydrus\\license.txt', '.'),
